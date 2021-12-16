@@ -1,0 +1,12 @@
+- corrigir script de inicialização dos serviços(profile do usuario de serviços protheus)
+adicionar dependencias de bibliotecas LD_LIBRARY(criar link simbolico, arquivos de carga de bibliotecas,etc[ver LPIC1- 101-500])
+adicionar nohup nos scripts de start[ver LPIC1- 101-500]
+adicionar os binarios no path atraves de scripts de inicialização globais(/etc/profile.d/ e /etc/bashrc[ver LPIC1 -102-500])
+
+-criar scripts de incialização baseado em systemd(hoje são em SysVinit)[ver LPIC1- 101-500]
+
+-verificar permissões concedidas ao usuário protheus em todas as pastas utilizadas pelos serviços
+
+-migrar logs de serviços para /var/logs/totvs/protheus
+
+-migrar serviços da totvs para: PASTA CORRETA DO FHS A DEFINIR APOS PESQUISA
