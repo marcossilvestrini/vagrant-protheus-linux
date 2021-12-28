@@ -1,5 +1,5 @@
 # Sync Files
-rsync -avzh --exclude=.vagrant --exclude=.git --progress /mnt/projects/vagrant-protheus/ /home/marcos.silvestrini/vagrant-protheus
+rsync -avzh --exclude=.vscode --exclude=.vagrant --exclude=.git --progress /mnt/projects/vagrant-protheus-linux/ /home/marcos.silvestrini/vagrant-protheus-linux
 
 # Copy pk vagrant machine
 cp .vagrant/machines/protheus/virtualbox/private_key /mnt/projects/vagrant-protheus/linux/security/
