@@ -6,6 +6,10 @@
 
 -migrar serviços da totvs para: PASTA CORRETA DO FHS A DEFINIR APOS PESQUISA
 
+- fix dbaccess password
+hoje é necessario setar o password manualmente no dbmonitor para acessar o ambiente
+mudar para string connect
+
 
 
 

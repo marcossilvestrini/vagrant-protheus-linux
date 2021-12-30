@@ -96,6 +96,7 @@ vagrant ––version
 - Configure Selinux
 - Install Updates
 - Install python3
+- Up stack app
 
 ## Fix Error SSH in Vagrant Windows
 
