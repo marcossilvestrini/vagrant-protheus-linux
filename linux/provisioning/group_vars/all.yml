@@ -13,9 +13,6 @@ ip_developer: '192.168.0.100'
 
 # Paths of App Stack
 
-# Shared Libraries(.so)
-lib_path: /opt/lib/protheus
-
 # App Path
 app_path: /totvs
 
