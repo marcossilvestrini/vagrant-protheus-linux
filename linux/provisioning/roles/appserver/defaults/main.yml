@@ -7,6 +7,14 @@ paths:
     - '{{ appserver_path }}/soap'
     - '{{ appserver_path }}/rest'
 
+bin_name:
+    - app_lockserver
+    - app_broker
+    - app_slave01
+    - app_slave02
+    - app_soap
+    - app_rest
+
 scripts:
     - totvslockserver.j2
     - totvslave01.j2

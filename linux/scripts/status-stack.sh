@@ -10,9 +10,9 @@ echo '[status License Server]'
 echo '[status DBAccess Server]'
 ./totvsdbaccess status
 
-echo '[status Broker Server]'
-cd /totvs/bin/appserver/broker
-./app_broker -balance_smart_client_desktop -q
+# echo '[status Broker Server]'
+# cd /totvs/bin/appserver/broker
+# ./app_broker -balance_smart_client_desktop -q
 
 cd /etc/init.d
 

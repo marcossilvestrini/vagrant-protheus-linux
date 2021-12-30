@@ -99,6 +99,24 @@
     group: '{{ user_service }}'
     mode: '0775'
 
+- name: Create PID file
+  file:
+    path: '/var/run/app_license.pid'
+    state: touch
+    mode: '0775'
+    owner: '{{ user_service }}'
+    group: '{{ user_service }}'
+  become: yes
+
+- name: Create LOCK file
+  file:
+    path: '/var/lock/subsys/app_license'
+    state: touch
+    mode: '0775'
+    owner: '{{ user_service }}'
+    group: '{{ user_service }}'
+  become: yes
+
 - name: Clear Appserver Files
   file:
     path: '{{ license_appserver_path }}/appserver.tar.gz'
