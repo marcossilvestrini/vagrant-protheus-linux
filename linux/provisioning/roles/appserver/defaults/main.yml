@@ -76,7 +76,7 @@ StartPath: /system/
 local_files: CTREE
 localdbextension: .dtc
 rpodb: Top
-rpolanguage: Portuguese
+rpolanguage: multi
 RegionalLanguage: BRA
 rpoversion: 120
 ThreadMemWarning: 1000

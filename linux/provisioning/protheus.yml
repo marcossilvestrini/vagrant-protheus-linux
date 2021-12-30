@@ -1,6 +1,6 @@
 - hosts: protheus
   become: yes
-  vars_files:    
+  vars_files:
     - roles/postgresql/vars/main.yml
   roles:
     - common
@@ -10,4 +10,4 @@
     - license
     - dbaccess
     - appserver
-    - smartclient   
+    - smartclient
