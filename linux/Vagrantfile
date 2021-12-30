@@ -87,6 +87,11 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       ansible.playbook = "provisioning/app.yml"
     end
 
+    # UP STACK APP
+    protheus.vm.provision "shell", inline: <<-SHELL
+        /totvs/scripts/up-stack-vagrant.sh
+    SHELL
+
   end
 
 end

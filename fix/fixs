@@ -1,11 +1,3 @@
-- configurar bibliotecas campartilhadas (*.so)
-export LD_LIBRARY_PATH=.
-ok
-
-- corrigir permisoes dos arquivos abaixo
-touch: cannot touch '/var/lock/subsys/app_slave02': Permission denied
-touch: cannot touch '/var/run/app_slave02.pid': Permission denied
-
 - adicionar os binarios no path atraves de scripts de inicialização globais(/etc/profile.d/ e /etc/bashrc[ver LPIC1 -102-500])
 
 -criar scripts de incialização baseado em systemd(hoje são em SysVinit)[ver LPIC1- 101-500]
